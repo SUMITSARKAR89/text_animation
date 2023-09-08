@@ -1,0 +1,51 @@
+<style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            box-sizing: border-box;   
+        }
+        body{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+        h1{
+            width: 0ch;
+            color:aqua;
+            font-size: 40px;
+            white-space: nowrap;
+            animation: text 15s infinite;
+            overflow: hidden;
+            border-radius: 10px;
+            border-right: 3px solid white;
+            box-shadow: 0 0 5px rgb(201, 201, 228), 0 0 25px rgb(26, 224, 238);
+            
+        }
+        @keyframes text{
+            0%{ width: 0ch;}
+            50%{ width: 26ch;}
+            
+        }
+       
+        button{
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            border:none ;
+            padding: 8px 10px;
+            border-radius: 4px;
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 2px; 
+            filter: hue-rotate(250deg);
+        }
+        button:hover{
+            background-color: rgb(33, 235, 235);
+    color:black;
+    box-shadow: 0 0 5px rgb(201, 201, 228), 0 0 25px rgb(26, 224, 238)
+            
+        }
+    </style>
